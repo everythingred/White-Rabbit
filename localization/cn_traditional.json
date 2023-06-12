@@ -1,58 +1,58 @@
 {
-    "title": "Alice is Missing",
-    "bot-name": "The White Rabbit",
+    "title": "愛麗絲已去",
+    "bot-name": "白兔",
 
-    "spectator-role": "Spectator",
+    "spectator-role": "旁觀者",
 
     "categories": {
-        "general": "General/OOC",
-        "game": "The Game",
-        "texts": "Texts"
+        "general": "一般/OOC",
+        "game": "遊戲",
+        "texts": "簡訊"
     },
 
     "channels": {
-        "discussion": "discussion",
-        "bot-channel": "bot-channel",
-        "call": "call",
+        "discussion": "一般討論區",
+        "bot-channel": "機器人指令",
+        "call": "語音",
 
-        "resources": "player-resources",
+        "resources": "資源區",
 
         "cards": {
-            "character-cards": "character-cards",
-            "suspect-cards": "suspect-cards",
-            "location-cards": "location-cards",
-            "suspects-drawn": "suspects-drawn",
-            "locations-drawn": "locations-drawn"
+            "character-cards": "角色牌",
+            "suspect-cards": "嫌疑犯牌",
+            "location-cards": "地點牌",
+            "suspects-drawn": "嫌疑犯以抽牌",
+            "locations-drawn": "地點以抽牌"
         },
 
-        "clue-channel-format": "{}-clues",
-        "voicemails": "voicemails",
-        "group-chat": "group-chat",
-        "pm-channel-format": "{}-{}-pm"
+        "clue-channel-format": "{}-線索",
+        "voicemails": "語音留言",
+        "group-chat": "群組討論區",
+        "pm-channel-format": "{}-{}"
     },
 
     "commands": {
         "about": {
             "version": {
-                "name": "version",
+                "name": "版本",
                 "aliases": [],
-                "description": "Print out the bot version"
+                "description": "顯示機器人版本"
             },
 
             "credits": {
-                "name": "credits",
+                "name": "關於機器人",
                 "aliases": ["about", "info"],
-                "description": "Prints information about the bot",
+                "description": "關於機器人",
 
-                "creators": "The White Rabbit was created by circumspect.",
-                "source": "Source code available here:"
+                "creators": "白兔的作者 circumspect.",
+                "source": "原始碼在這:"
             },
 
             "docs": {
-                "name": "docs",
+                "name": "文件",
                 "aliases": ["guide"],
-                "description": "Link to the documentation",
-                "documentation": "Documentation for The White Rabbit can be found here:"
+                "description": "文件的連結",
+                "documentation": "白兔的文件:"
             }
         },
 
@@ -64,71 +64,71 @@
             },
 
             "show_all": {
-                "name": "show_all",
+                "name": "全部顯示",
                 "aliases": [],
-                "description": "Reveal all channels and disable sending messages"
+                "description": "顯示全部對話及禁止發新訊息"
             },
 
             "wipe": {
-                "name": "wipe",
+                "name": "刪除",
                 "aliases": ["clear"],
-                "description": "Erases all messages and clears game data",
+                "description": "刪除所有對話訊息以及遊戲資料",
 
-                "DeletingMessages": "Deleting all messages!"
+                "DeletingMessages": "刪除所有對話訊息!"
             },
 
             "reset_perms": {
-                "name": "reset_perms",
+                "name": "重新設置權限",
                 "aliases": [],
-                "description": "Resets channel permissions to the default (undoes !show_all)"
+                "description": "重新設置所有對話的權限 (撤銷 !全部顯示)"
             },
 
             "reset_roles": {
-                "name": "reset_roles",
+                "name": "重新設置角色",
                 "aliases": [],
-                "description": "Removes character roles and nicknames from all players",
+                "description": "移除玩家已選的角色及暱稱",
 
-                "NoteAboutOwner": "Note: the bot cannot update the server owner's nickname"
+                "NoteAboutOwner": "PS: 機器人無法更改伺服器所有者的暱稱"
             },
 
             "reset": {
-                "name": "reset",
+                "name": "重新設置",
                 "aliases": [],
-                "description": "Complete server reset",
+                "description": "伺服器完全重置",
 
-                "ResettingServer": "Resetting the server!"
+                "ResettingServer": "重置伺服器!"
             }
         },
 
         "debug": {
             "speed": {
-                "name": "speed",
+                "name": "速度",
                 "aliases": [],
-                "description": "Changes the speed of the game"
+                "description": "改變遊戲速度"
             },
 
             "plugins": {
-                "name": "plugins",
+                "name": "插件",
                 "aliases": [],
-                "description": "Lists all currently loaded plugins"
+                "description": "顯示所有插件"
             },
 
             "load": {
-                "name": "load",
+                "name": "讀取插件",
                 "aliases": [],
-                "description": "(Re)loads a plugin"
+                "description": "讀取插件"
             },
 
             "unload": {
-                "name": "unload",
+                "name": "移除插件",
                 "aliases": [],
-                "description": "Unloads a plugin"
+                "description": "移除插件"
             },
 
             "quit": {
-                "name": "quit",
-                "aliases": ["stop", "shutdown"],
-                "description": "Shuts down the bot - AFFECTS ALL SERVERS"
+                "name": "退出",
+                "aliases": ["quit","stop", "shutdown"],
+                "description": "退出機器人 - 影響到所有的伺服器"
             }
         },
 
@@ -136,36 +136,36 @@
             "pdf": {
                 "name": "pdf",
                 "aliases": ["PDF"],
-                "description": "Exports the game to a PDF",
+                "description": "輸出遊戲到PDF",
 
-                "created-by": "Created by:",
-                "voicemail": "Voicemail",
-                "timeline": "Timeline",
-                "conclusion": "Conclusions",
-                "group-chat": "Group Chat",
-                "investigator": "Investigator",
-                "ending": "Ending",
-                "location": "Location",
-                "culprit": "Culprit",
-                "culprit1": "Culprit #1",
-                "culprit2": "Culprit #2",
+                "created-by": "創造者:",
+                "voicemail": "語音留言",
+                "timeline": "時間線",
+                "conclusion": "結論",
+                "group-chat": "群組討論區",
+                "investigator": "調查者",
+                "ending": "結局",
+                "location": "地點",
+                "culprit": "主凶",
+                "culprit1": "主凶 #1",
+                "culprit2": "主凶 #2",
 
-                "CollectingData": "Gathering game data...",
-                "BuildingCharPages": "Building character pages...",
-                "FailedImport": "Failed to import game data, did someone leave the server?",
-                "MissingGameData": "Couldn't find game data to export!",
-                "RecreatingTimeline": "Recreating timeline...",
-                "CollectingMessages": "Collecting messages...",
-                "PDFCreated": "PDF created!"
+                "CollectingData": "收集遊戲資訊...",
+                "BuildingCharPages": "創造角色頁面...",
+                "FailedImport": "遊戲載入失敗, 有玩家離開伺服器?",
+                "MissingGameData": "沒有遊戲資訊可輸出!",
+                "RecreatingTimeline": "重建時間線...",
+                "CollectingMessages": "收集簡訊...",
+                "PDFCreated": "PDF完成!"
             },
 
             "upload": {
-                "name": "upload",
+                "name": "上傳",
                 "aliases": [],
-                "description": "Uploads a file and prints out the download url",
+                "description": "上傳檔案及顯示下載 url",
 
-                "Uploading": "Uploading...",
-                "FileTooBig": "File is too large to be uploaded directly to Discord. Uploading to temporary file hosting service..."
+                "Uploading": "上傳中...",
+                "FileTooBig": "檔案太大上傳不到 Discord. 上傳檔案到 hosting service..."
             }
         },
 
@@ -173,35 +173,35 @@
             "init": {
                 "name": "init",
                 "aliases": ["initialize"],
-                "description": "Initial setup before character selection"
+                "description": "角色選擇前原始話設定"
             },
 
             "setup_clues": {
-                "name": "setup_clues",
+                "name": "設置線索牌",
                 "aliases": [],
-                "description": "Shuffle and distribute clues"
+                "description": "洗和發線索牌"
             },
 
             "start": {
-                "name": "start",
+                "name": "開始",
                 "aliases": [],
-                "description": "Begins the game"
+                "description": "遊戲開始"
             },
 
             "example": {
-                "name": "example",
+                "name": "範例",
                 "aliases": [],
-                "description": "Sends an example clue and suspect"
+                "description": "發送線索牌和嫌疑犯牌的範例"
             },
 
             "char_sheet": {
-                "name": "char_sheet",
+                "name": "角色清單",
                 "aliases": [],
-                "description": "Sends the character sheet to the resources channel"
+                "description": "發送角色清單到資源區"
             },
 
             "search": {
-                "name": "search",
+                "name": "",
                 "aliases": ["searching"],
                 "description": "Draw a searching card",
 
