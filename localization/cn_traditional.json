@@ -278,151 +278,151 @@
 
         "players": {
             "claim": {
-                "name": "claim",
+                "name": "選取角色",
                 "aliases": [],
-                "description": "Claim a character/spectator role",
+                "description": "選取角色或旁觀者",
 
-                "AlreadyHaveThisRole": "You already have that role!",
-                "AlreadyHaveOtherRole": "You already have a role!",
-                "UnclaimableRole": "You cannot claim that role!",
-                "RoleIsTaken": "That role is taken!",
-                "UpdatedRoles": "Gave you the role!"
+                "AlreadyHaveThisRole": "你已選了這個角色!",
+                "AlreadyHaveOtherRole": "你已選過角色了!",
+                "UnclaimableRole": "你不能選擇這個角色!",
+                "RoleIsTaken": "此角色已被選了!",
+                "UpdatedRoles": "你得到此角色!"
             },
 
             "unclaim": {
-                "name": "unclaim",
+                "name": "移除已選角色",
                 "aliases": [],
-                "description": "Remove character roles"
+                "description": "移除已選角色"
             },
 
             "roles": {
-                "name": "roles",
+                "name": "角色",
                 "aliases": [],
-                "description": "Displays your roles",
+                "description": "顯示你的角色",
 
-                "YourRoles": "Your roles:"
+                "YourRoles": "你的角色:"
             },
 
             "users": {
-                "name": "users",
+                "name": "用戶",
                 "aliases": ["list"],
-                "description": "Lists all players and spectators",
+                "description": "顯示所有玩家跟旁觀者",
 
-                "spectators": "Spectators:",
-                "players": "Players:",
-                "NoneFound": "No players or spectators found"
+                "spectators": "旁觀者:",
+                "players": "玩家:",
+                "NoneFound": "暫時沒有玩家跟旁觀者"
             }
         },
 
         "settings": {
             "auto": {
-                "name": "auto",
+                "name": "自動",
                 "aliases": [],
-                "description": "Prints current mode or turn automatic on/off (on by default)",
+                "description": "顯示現在的模式及開/關自動模式",
 
-                "on": "on",
-                "off": "off",
+                "on": "開",
+                "off": "關",
 
-                "CurrentlyAuto": "Current mode: automatic",
-                "CurrentlyManual": "Current mode: manual",
-                "AutoEnabled": "Automatic card draw enabled!",
-                "AutoDisabled": "Automatic card draw disabled!"
+                "CurrentlyAuto": "現在的模式: 自動",
+                "CurrentlyManual": "現在的模式: 手動",
+                "AutoEnabled": "開啟自動抽牌!",
+                "AutoDisabled": "關閉自動抽牌!"
             },
 
             "music": {
-                "name": "music",
+                "name": "音樂",
                 "aliases": [],
-                "description": "Enable/disable music stream when game starts",
+                "description": "開啟/關閉youtube背景音樂播放",
 
-                "MusicEnabled": "Music stream enabled!",
-                "MusicDisabled": "Music stream disabled!"
+                "MusicEnabled": "開啟youtube背景音樂播放!",
+                "MusicDisabled": "關閉youtube背景音樂播放!"
             },
 
             "show_timer": {
-                "name": "timer",
+                "name": "計時器",
                 "aliases": [],
-                "description": "Show/hide bot timer",
+                "description": "顯示/隱藏機器人計時器",
 
-                "TimerGapTooSmall": "Gap between timer pings is too small!",
+                "TimerGapTooSmall": "警示聲時間間隔太短!",
 
-                "ShowingTimer": "Showing bot timer!",
-                "HidingTimer": "Hiding bot timer!"
+                "ShowingTimer": "顯示機器人計時器!",
+                "HidingTimer": "隱藏機器人計時器!"
             },
 
             "endings": {
-                "name": "endings",
+                "name": "結局",
                 "aliases": [],
-                "description": "Enables/disables an ending. See docs for details",
+                "description": "開啟/關閉結局 (細節請看document)",
 
-                "EndingsEnabled": "Endings enabled:"
+                "EndingsEnabled": "開啟結局:"
             }
         }
     },
 
     "stuff-for-charlie": {
         "instructions": [
-            "Read introduction",
-            "Introduce Alice from poster",
-            "Introduce/pick characters",
-            "Explain character cards",
-            "Explain motive cards",
-            "Character backgrounds",
-            "Relationships",
-            "Suspects and locations",
-            "!setup_clues",
-            "!example",
-            "Explain clue cards",
-            "Explain searching",
-            "Game guide",
-            "Voicemails",
-            "Stream timer (https://www.youtube.com/watch?v=ysOOFIOAy7A)",
-            "!start",
-            "Send first message"
+            "讀出遊戲介紹",
+            "由海報介紹愛麗絲",
+            "介紹並選角色",
+            "解釋角色牌",
+            "解釋動機牌",
+            "角色背景",
+            "角色關係",
+            "解釋嫌疑犯及地點牌",
+            "!設置線索牌",
+            "!範例",
+            "解釋線索牌",
+            "解釋搜尋的動作",
+            "遊戲指南",
+            "語音留言",
+            "Youtube 計時器 (https://www.youtube.com/watch?v=ysOOFIOAy7A)",
+            "!開始遊戲",
+            "寄出第一支簡訊"
         ],
 
-        "background": "CHARLIE BARNES moved away from Silent Falls with their mom at the end of the last school year after their parents divorced. They just arrived in town to stay with their dad for winter break, and hope to see Alice and the others while they're here. A few days ago, Alice stopped responding. They haven't heard from her since.",
+        "background": "在上一個學年後 查理·巴恩斯 在他父母離婚之後後就跟他媽媽一起搬離開了静瀑镇 母子倆剛到達靜瀑鎮準備在他爸爸這一起度過寒假 也希望藉由這個機會可以跟愛麗絲還有其他的朋友見見面 幾天前愛麗絲突然停止回覆他的訊息 在此之後就再也沒有愛麗絲的消息了 ",
 
-        "first-message": "Hey! Sorry for the big group text, but I just got into town for winter break at my dad's and haven't been able to get ahold of Alice. Just wondering if any of you have spoken to her?"
+        "first-message": "安安 不好意思打擾大家, 我剛回到鎮裡 我會在我爸爸這度過寒假 我試著要聯絡愛麗絲但她一直沒有回覆 不知道你們有沒有人最近有跟他說過話?"
     },
 
     "messages": {
-        "TenMinuteReminder": "Reminder to assign the 10 minute card to the player who is going to Alice's location! (e.g., !10 Evan)",
-        "NextClueReminder": "Reminder: You have the next clue card",
-        "Initializing": "Initializing game",
-        "DistributingClues": "Distributing clues!",
-        "StartingGame": "Starting the game!",
-        "Culprit": "CULPRIT:",
-        "SecondCulprit": "SECOND CULPRIT:",
-        "AliceLocation": "ALICE'S LOCATION:"
+        "TenMinuteReminder": "記住 請分配10分鐘線索牌給要去愛麗絲所在地的玩家(e.g., !10 Evan)",
+        "NextClueReminder": "記住 你有下一張線索牌",
+        "Initializing": "初始化遊戲",
+        "DistributingClues": "分送線索牌!",
+        "StartingGame": "開始遊戲!",
+        "Culprit": "主兇:",
+        "SecondCulprit": "第二主兇:",
+        "AliceLocation": "愛麗絲所在地:"
     },
 
     "flip": {
-        "heads": "Heads",
-        "tails": "Tails"
+        "heads": "頭像",
+        "tails": "數字"
     },
 
     "errors": {
-        "MissingDotEnv": "No dotenv file found! Downloading sample .env and shutting down",
-        "LoginFailure": "Couldn't log in! Was the token incorrect?",
-        "UserInputError": "Invalid input!",
-        "CommandNotFound": "Command not found!",
-        "CommandInWrongChannel": "You can only use commands in this channel!",
-        "MissingDeveloperPermissions": "That command is for developers only!",
-        "ManualCommandInAuto": "Can't do that, are you running a manual command in automatic mode?",
-        "SpectatorCommandAttempt": "Spectators can't run commands!",
-        "GenericCheckFailure": "You can't do that!",
-        "MissingAlice": "Alice has not been chosen!",
-        "MissingCharlie": "Can't find Charlie!",
-        "NotEnoughPlayers": "Not enough players!",
-        "NeedToSetUp": "Can't start before setting up!",
-        "NoCharacterRoles": "You don't have a character role!",
-        "GameNotStarted": "Game hasn't started yet!",
-        "NotInitialized": "Need to initialize first!",
-        "AlreadyStarted": "Game has already begun!",
-        "AlreadyInitialized": "Initialization already run!",
-        "ServerOwnerNicknameChange": "Couldn't update nickname because you are server owner!",
-        "PlayerNotFound": "Couldn't find that player!",
-        "IllegalPath": "Illegal path!",
+        "MissingDotEnv": "找不到 點env 檔! 點env範例檔下載中後重啟",
+        "LoginFailure": "不能登入! 檢查token是不是正確?",
+        "UserInputError": "無效輸入!",
+        "CommandNotFound": "無效指令!",
+        "CommandInWrongChannel": "這個聊天室只能輸入指令!",
+        "MissingDeveloperPermissions": "這指令只有開發者能使用!",
+        "ManualCommandInAuto": "不行, 你要在自動模式下用手動指令?",
+        "SpectatorCommandAttempt": "旁觀者不能下指令!",
+        "GenericCheckFailure": "你不能這麼做!",
+        "MissingAlice": "愛麗絲還沒被選到!",
+        "MissingCharlie": "查理還沒被選到!",
+        "NotEnoughPlayers": "不夠玩家!",
+        "NeedToSetUp": "設置完成前遊戲不能開始!",
+        "NoCharacterRoles": "你還沒有選角色!",
+        "GameNotStarted": "遊戲還沒有開始!",
+        "NotInitialized": "遊戲還沒有初始化!",
+        "AlreadyStarted": "遊戲已經開始了!",
+        "AlreadyInitialized": "遊戲已經初始化了!",
+        "ServerOwnerNicknameChange": "不能改暱稱因為你是伺服器的所有人!",
+        "PlayerNotFound": "找不到那位玩家!",
+        "IllegalPath": "違法的道路!",
         "UnknownError": "Unknown error: check console!"
     }
 }
