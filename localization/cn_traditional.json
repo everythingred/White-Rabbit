@@ -201,19 +201,19 @@
             },
 
             "search": {
-                "name": "",
+                "name": "搜尋",
                 "aliases": ["searching"],
-                "description": "Draw a searching card",
+                "description": "抽一張搜尋卡",
 
-                "NothingFound": "You found nothing"
+                "NothingFound": "沒有找到任何東西"
             },
 
             "ten_min_card": {
                 "name": "10",
                 "aliases": [],
-                "description": "Assign the 10 minute card to another player",
+                "description": "將10分鐘卡分配給另一個玩家",
 
-                "Assigned": "Assigned 10 minute card!"
+                "Assigned": "分配10分鐘卡!"
             }
         },
 
@@ -221,58 +221,58 @@
             "alice": {
                 "name": "alice",
                 "aliases": ["poster"],
-                "description": "Sends a specified Alice poster, or a random one if no argument is passed"
+                "description": "隨機或指定一張愛麗絲的尋人海報"
             },
 
             "shuffle_motives": {
-                "name": "shuffle_motives",
+                "name": "重洗動機牌",
                 "aliases": [],
-                "description": "Shuffle and assign motive cards",
+                "description": "重洗及指定動機牌",
 
-                "Shuffling": "Shuffling motives!"
+                "Shuffling": "洗動機牌!"
             },
 
             "send_motives": {
-                "name": "send_motives",
+                "name": "發動機牌",
                 "aliases": [],
-                "description": "Distributes motive cards",
+                "description": "發動機牌",
 
-                "NeedToShuffle": "Need to shuffle motives first!"
+                "NeedToShuffle": "先洗動機牌!"
             },
 
             "clue": {
-                "name": "clue",
+                "name": "線索",
                 "aliases": [],
-                "description": "Draws a clue card given a time",
+                "description": "抽指定時段的線索牌",
 
-                "ClueNotFound": "No clue card found for that time!",
-                "CluesNotAssigned": "Clues have not been assigned!",
-                "CluesNotShuffled": "Clues have not been shuffled!",
-                "NotYourClue": "That clue doesn't belong to you!"
+                "ClueNotFound": "那個時段沒有線索牌!",
+                "CluesNotAssigned": "線索牌還沒被指定!",
+                "CluesNotShuffled": "線索排還沒洗過!",
+                "NotYourClue": "這是不屬於你的線索牌!"
             },
 
             "shuffle_clues": {
-                "name": "shuffle_clues",
+                "name": "重洗線索牌",
                 "aliases": [],
-                "description": "(Re)shuffles the clue card piles",
+                "description": "重洗線索牌",
 
-                "ShufflingClues": "Shuffling clues!"
+                "ShufflingClues": "重洗線索牌!"
             },
 
             "assign_times": {
-                "name": "assign_times",
+                "name": "分配時段",
                 "aliases": [],
-                "description": "Randomizes and assigns clue times",
+                "description": "隨機化並分配各時段的線索",
 
-                "AssigningClues": "Assigning clue cards!"
+                "AssigningClues": "分配線索牌!"
             },
 
             "print_times": {
-                "name": "print_times",
+                "name": "顯示時段",
                 "aliases": [],
-                "description": "Print out clue assignments",
+                "description": "顯示線索分配",
 
-                "ClueTimes": "Clue times:"
+                "ClueTimes": "線索時段:"
             }
         },
 
